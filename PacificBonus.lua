@@ -1,11 +1,11 @@
 local ncs = stats.set_int
 local ncb = stats.set_bool
 
--- Funktion zum Erzwingen der Stats
+-- Function to force stats
 function apply_pacific_bonus_stats()
     local value = 268435455
     
-    -- Stats setzen 
+    -- Set Stats 
     ncs("MPPLY_HEISTFLOWORDERPROGRESS", value)
     ncb("MPPLY_AWD_HST_ORDER", false)
     
@@ -18,16 +18,17 @@ function apply_pacific_bonus_stats()
     log.info("Pacific Stats were updated in the background.")
 end
 
--- Hauptschleife 
+-- Main Loop 
 script.run_in_callback(function()
     log.info("12mil Payout Script successfully Loaded.")
     notify.success("Lua Script", "Pacific Bonus Loop running.")
 
     while true do
-        -- Stats anwenden
+        -- Apply Stats
         apply_pacific_bonus_stats()
 
-        -- 10 Sekunden warten bevor sie erneut gesetzt werden
+        -- Wait 10 seconds before resetting them
         script.yield(10000)
     end
+
 end)
