@@ -22,4 +22,4 @@ I´ve made this Script myself and Ive just got into coding so if something doesn
 
 7. And thats all you have to do!
 
-8. Important: I wouldnt do this more than once every 60 minutes)
+8. (Important: I wouldnt do this more than once every 60 minutes)
