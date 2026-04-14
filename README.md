@@ -23,3 +23,7 @@ I´ve made this Script myself and Ive just got into coding so if something doesn
 7. And thats all you have to do!
 
 8. (Important: I wouldnt do this more than once every 60 minutes)
+
+***Info***
+
+This is now integrated in [ChronixV2](https://github.com/Deadlineem/ChronixV2) I´ve also integrated a few more Scripts that I found in the [YimmenuV2 Lua Collection Thread](https://www.unknowncheats.me/forum/grand-theft-auto-v/707419-lua-scripts-yimmenuv2-collection-thread-1.html)
